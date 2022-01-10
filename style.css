@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+    background-color: burlywood;
+}
+.conainer{
+        width: 85%;
+        height: 90vh;
+        margin: auto;
+        margin-bottom:80px;
+        background-color: wheat;
+        padding: 20px;
+}
+.menu-frame{
+    position: relative;
+
+    top: 20px;
+    width:400px;
+    height:50px ;
+    background-color: blanchedalmond;
+    border-radius: 100px;
+    float: right;
+    overflow: hidden;
+}
+.home{
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 150px;
+    }
+    .home >article{
+        width: 70%;
+        margin-top: 40px;
+        margin-right: 40px;
+        line-height: 30px;
+    }
+ul{
+    position: relative;
+    /* height: 35px; */
+    padding: 15px 30px;
+    display: flex;
+    justify-content:end;
+    margin: auto;
+    /* line-height: 30px; */
+    
+}
+
+li{
+    list-style: none;
+    text-underline-position: none;
+    padding:15px 20px;
+    height: 10px;
+    line-height: 10px;
+}
+li > a {
+    text-decoration:none;   
+}
+
+
+.home > img{
+    position:absolute;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left:800px ;
+    float: left;
+}
+.about{
+    position: relative;
+    top:300px;
+}
+.services{
+    position: relative;
+    top:500px;
+}
+.contact{
+    position: relative;
+    top:550px; 
+}
+footer{
+    position: relative;
+    top:600px; 
+    bottom: 20px;
+    width:100%;
+    height:50px ;
+    background-color: blanchedalmond;
+    border-radius: 100px;
+    float: right;
+    overflow: hidden;
+}
